@@ -9,7 +9,7 @@
     /* color: rgb(255, 255, 255); */
     /* box-shadow: inset 0 0 5px rgb(255, 255, 255);  */
     border-radius: 10px;
-    margin: 200px;
+    margin: 210px;
   }
    
   /* Handle */
@@ -99,17 +99,28 @@ body{
     align-items: center;
     padding: 8px 15px ;
 }
+.f-links2{
+    /* margin: 20px auto; */
+    border-radius: 50px;
+    background-color: #1D2528;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 40px ;
+}
 .linkChild{
     align-items: center;
-    gap: 5px;
+    justify-content: center;
+    gap: 6px;
 }
+
 .linkText{
     font-size: 0.7em;
     font-weight: 400;
 }
 
 .tskills{
-    margin: 40px auto;
+    margin: 40px auto 20px;
     color: #F22E20;
     font-size: 1.2em;
     letter-spacing: 2px;
@@ -129,6 +140,21 @@ body{
     gap: 10px 8px;
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;	 */
 }
+
+.autoGrid2{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: fit-content;
+    margin: auto;
+    gap: 10px;
+    padding: 0px 30px ;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;	 */
+}
+.horizontalGrid{
+    gap: 8px;
+}
 .gridChild{
     font-family: SF Pro display;
     font-size: 0.8em;
@@ -138,4 +164,96 @@ body{
     border-radius: 50px;
     margin: 0;
 
+}
+.gridChild2{
+    font-family: SF Pro display;
+    font-size: 0.7em;
+    align-items: center;
+    padding: 8px 12px;
+    color: #1D2528;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0;
+}
+.gridChild3{
+
+    width: fit-content;
+    gap: 4px;
+
+}
+
+.f-linksParent{
+
+    margin: 50px auto 20px;
+    gap: 200px;
+}
+
+.workexp{
+    margin: 30px auto 20px;
+}
+.details{
+    width: 350px;
+    margin: 5px 0;
+    gap:20px;
+    justify-content: space-between;
+}
+.dateloc{
+    font-family: Josefin Sans;
+    color:#F22E20;
+    font-style: italic;
+    font-size: 0.7em;
+
+}
+.experienceColumn{
+    margin: 60px auto;
+    border-radius: 30px;
+    padding: 0 50px 20px;
+    background-color: #1D2528;
+}
+.achieve-title{
+    font-family: Josefin Sans;
+    font-size: 0.7em;
+    color: #F22E20;
+    font-style: italic;
+    font-weight: 400;
+}
+.achieve-list{
+    gap: 3px;
+    padding: 10px;
+}
+.achieve-childText{
+    color: #828282;
+    font-size: 0.6em;
+    width:350px;
+
+}
+
+.position{
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 1.2em;
+    
+}
+.company{
+    font-size: 0.9em;
+    font-family: Josefin Sans;
+    color: #828282;
+}
+.achieve-child{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.self-made{
+    margin: 0 auto 50px;
+    gap: 15px;
+    border-radius: 90px;
+    padding: 30px 60px;
+    background-color: #1D2528;
+}
+.self-made-list{
+    gap: 8px;
+}
+a{
+    text-decoration: none;
 }
